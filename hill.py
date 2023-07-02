@@ -37,7 +37,7 @@ def hill_climbing(initial_x, initial_y):
 
 # Example usage
 initial_x = random.uniform(-2, 2)
-initial_y = random.uniform(-1, 3)
+initial_y = random.uniform(-2, 2)
 final_x, final_y, final_score = hill_climbing(initial_x, initial_y)
 print("Final State (x, y):", final_x, final_y)
 print("Final Score:", final_score)
